@@ -1,0 +1,436 @@
+*{	padding: 0px;	margin: 0px;}
+body{	font-family: san-serif;	color:black;
+}
+/**************************************** CSS MENU****************************************/
+#menu ul{	
+	list-style-type: none;	
+	text-align: center;
+}
+#menu ul li{	
+	color: #303030;
+	display: inline-table;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	position:relative;
+	font-size: 13px;	
+	font-family: Arial;	
+	text-transform: uppercase;
+}
+#menu ul li a{		
+	text-decoration: none;
+	color: black;	
+	display: block;
+}
+#menu ul li a:hover{
+	text-decoration: underline;
+	font-weight:bold;	
+}
+.search-box{
+	display: table;
+ 	width: 100%;
+ 	height: 100%;
+	
+}
+.search-box >input{
+ 	display: table-cell;
+  	vertical-align: middle;
+	border-radius: 20px;
+	height: 30px;
+	margin-left: 40px;
+	border-color: red;	
+}
+/**************************************** CSS SLIDESHOW****************************************/
+.slideShow{
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 10px;
+}
+.slideShow > img{ 
+	width: 100%;
+	height: 100%;
+	position:  absolute;
+}
+.slideShow > .btn{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border: none;
+	border-radius: 25px;
+	top: 180px;
+	background: #352D2D;
+	color: white;
+	font-size: 20px;
+}
+.slideShow >#btn1:hover{
+	box-shadow: 10px 0px 20px 0px black;
+}
+.slideShow >#btn2:hover{
+	box-shadow: -10px 0px 20px 0px black;
+}
+.slideShow >#btn2{
+	position: relative;
+	float: right;
+	margin-right: 1px;
+}
+/**************************************** CSS BANNER ****************************************/
+.banner_support >img{
+	width: 100%;
+	height: 250px;
+}
+/**************************************** CSS TOÀN TRANG ****************************************/
+#warapper{	
+	width: 100%;	
+	height: 100%;
+	color: #FFF;
+}
+/**************************************** CSS HEADER ****************************************/
+#Header{	
+	width: 100%;
+	height: 70px;
+}
+#Header >img{
+	height: 125px;
+	margin-left: 80px;
+	z-index: 3;
+	position: absolute;
+}
+/**************************************** CSS CONTENT ****************************************/
+#Content{
+	width: 80%;
+	height: auto;
+	margin: 10px auto; 
+	background-color: #FFFFFF;	
+}
+.Content{
+	width: 100%;
+	height: auto;
+	margin-top: 15px;
+}
+.Content > h1 {
+	text-transform: uppercase;
+	margin: 10px;
+	color: #F11E24;
+	background-color: blue;
+	text-align: center;
+}
+/**************************************** CSS SAN PHAM ****************************************/
+.box-pro-home{	
+	border: 1px;
+	text-align: center;
+	margin-left: 21px;
+	
+}
+.item-pro-home{
+	width: 275px;
+	height: 285px;
+	border: 1px ;
+	float: left;
+	margin: 17px 6px 3px 17px;
+}
+.box-img-pro-home{	
+	width: 172px;
+	height: 172px;
+	border: 1px  ;
+	margin: 1px auto;
+}
+.box-img-pro-home img{
+	max-width: 180px;
+	max-height: 250px;
+	margin: 1px auto;
+}
+.box-img-pro-home img:hover{
+	border: 1px  ;
+	width: 180px; 
+	height: 150px;
+}
+.item-pro-home a{	
+	color: black;
+	text-align: center;
+}
+.item-pro-home a:hover{
+	color: red;
+	padding-bottom: 5px;
+}
+.item-pro-home p{	
+	color: red;	
+}
+.lapdell{
+	margin-left: 150px;
+}
+.lapdell-title{
+	background-color: #F6070B;
+	color: white;
+	margin-top: 10px;
+	padding: 0px;
+	margin: 0px;
+	width: 970px;
+	border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.lapdell-title > h2{
+	text-transform: uppercase;
+	text-shadow: 3px 3px 3px #4c4c4c;
+}
+.lapdell-footer{
+	overflow: hidden;
+	width: 950px;
+	height: 550px;
+	margin-left: 15px;
+}
+.lapdell-footer-box{
+	margin:1px;
+	width: 230px;
+	height: 265px;
+	float: left;
+}
+.lapdell-footer-box a{
+	margin:1px;
+	width: 230px;
+	height: 265px;
+	float: left;
+	text-decoration: none;
+}
+.lapdell-footer-box > .lapdell-footer-boximg > img{
+	width: 200px;
+	height: 175px;
+	margin-left: 15px;
+	margin-top: 4px;
+}
+.lapdell-footer-box > .lapdell-footer-boximg > img:hover{
+	border: 2px solid #888888;
+}
+.lapdell-footer-box > .lapdell-footer-boxtext {
+	width: 200px;
+	height: 75px;
+	margin-left: 15px;
+}
+
+.lapdell-footer-box > .lapdell-footer-boxtext > p{
+	color:red;
+	text-align: center;
+}
+
+/**************************************** CSS TABLE BÁO GIÁ ****************************************/
+table{
+	width: 800px;
+	height: auto;
+	margin-left:260px;
+	margin-top: 15px;
+	color: #000000;
+	border: 1px solid #000000;
+	border-collapse: collapse;
+}
+table,tr{
+	width: 800px;
+	height: 50px;
+}
+.b{
+	background-color: red;
+	color: white;
+}
+.c{
+	background-color: #2D2BE7;
+	color: black;
+	color: white;
+}
+table,tr,td{
+	height: 30px;
+	text-align: center;
+	border: 1px solid #000000;
+}
+/**************************************************************************lIÊN HỆ************************************************/
+.contact {
+	padding-left: 20px;
+	list-style-type: none;
+}
+.contact > li{
+	padding: 1px;
+}
+/****************************************************************** CSS CALL  ****************************************/
+.gifhotline {
+	bottom: 10%;
+    position: fixed;
+    right: 60px;
+    width: 100px;
+	z-index:999;
+}
+.gifhotline > a >img{
+	width: 200px;
+}
+.reshotline{
+	width:80%;
+	margin-left: 95px;
+}
+#wraper{
+	width:100%;
+	margin:0 auto;
+	text-align:left;
+	position:relative;
+	clear:both;
+	color: #120C2E;
+	z-index:50;
+}
+
+/***********************************************************CSS-CHI TIẾT SẢN PHẨM**********************************************/
+.Content-Detail{
+	width: 100%;
+	height: 500px;
+	color: red;
+}
+.Content-Detail-img > img{
+    width: 50%;
+    margin-top: 80px;
+    float: left;
+}
+.Content-Detail-text {
+	width: 60%;
+	padding-top: 90px;
+	padding-left: 555px;
+}
+.Content-Detail-text ul {
+	list-style-type: none;
+}
+.Content-Detail-text ul li{
+	color: black;
+	padding: 10px;
+}
+/***********************************************************CSS-BOOSTRAP-ĐẶT HÀNG****************************************************/
+
+.btn-DatHang >img{
+	float: right;
+    margin-top: -123px;
+    margin-right: 330px;
+    height: 107px
+	}
+
+div#Foodter{
+	height: 50px;
+	width: 100%;
+	background-color: darkblue;	
+	margin-top: 206px;
+	z-index: 999;
+	position: absolute;
+}
+#Foodter >p{
+	padding-top: 15px;
+	text-align: center;
+	color: white;
+	
+}
+/***********************************************************CSS-FOOTER-TRANG CHỦ****************************************************/
+.Content1{
+	width: 90%;
+	height: 550px;
+	margin-top: 2px;
+	margin-left: 40px;
+	color: blue;
+}
+.imgSP-Moi >img{
+	margin-top: 10px;
+	 margin-left: 180px;
+	z-index: 5;
+}
+
+.lapdell-footer1{
+	width: 90%;
+    height: auto;
+    margin-left: 140px;
+	margin-top: -20px;
+}
+.lapdell-footer-box1{
+	margin:40px;
+	width: 200px;
+	height: 137px;
+	float: left;
+}
+.lapdell-footer-box1 a{
+	margin:1px;
+	width: 230px;
+	height: 265px;
+	float: left;
+	text-decoration: none;
+}
+.lapdell-footer-box1 > .lapdell-footer-boximg1 > img{
+	width: 250px;
+	height: 175px;
+	margin: 10 auto;
+}
+.lapdell-footer-box1 > .lapdell-footer-boximg1 > img:hover{
+	border: 2px solid #888888;
+}
+
+.home-tintuc{
+	width: 60%;
+	float: left;
+	margin-left: 275px;
+	color: black;
+	list-style-type: none;
+	margin-top: 60px;
+}
+
+.tintuc-sukien{
+	margin-left: -20px;
+}
+div.tintuc-sukien{
+	margin-left: -135px;
+}
+.tintuc-sukien > ul >li {
+	
+	list-style-type: none;
+	float: left;
+	margin-left: 150px;
+	
+}
+
+.tintuc-sukien > ul >li >p{
+	font-size: 18px;
+	text-indent:50px;
+}
+
+.tintuc-sukien > ul > li > img{
+	width: 900px;
+	height: 450px;
+	margin-top: 30px;
+	float: left;
+	
+
+}
+.content-tintuc{
+	margin-left: 20px;
+	font-size: 18px;
+}
+.home-formlienhe{
+	width: 90%;
+	float: left;
+	margin-top: 50px;
+	margin-left: 180px;
+	margin-bottom: 5px;
+}
+.home-formlienhe >.home-form > input{
+	width: 667px;
+	height: 30px;
+	margin-left: 100px;
+	
+}
+.home-formlienhe >.home-form > textarea{
+	width: 669px;
+	margin-left: 100px;
+	height: 45px;
+}
+.Foodter1{
+	width: 100%;
+	height: 40px;
+	text-align:center;
+	background-color: darkblue;
+	margin-top: 124%;
+	
+}
+.Foodter1 > p{
+	padding-top: 15px;
+	text-align: center;
+	color: white;
+	
+}   
