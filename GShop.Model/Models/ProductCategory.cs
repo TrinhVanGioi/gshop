@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using TeduShop.Model.Abstract;
+using GShop.Model.Abstract;
 
-namespace TeduShop.Model.Models
+namespace GShop.Model.Models
 {
     [Table("ProductCategories")]
     public class ProductCategory : Auditable

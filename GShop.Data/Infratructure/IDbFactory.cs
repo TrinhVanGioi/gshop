@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GShop.Data
+namespace GShop.Data.Infratructure
 {
-    public class Class1
+    pu interface IDbFactory: IDisposable
     {
+        GShopDbContext Init();
     }
 }

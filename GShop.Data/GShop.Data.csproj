@@ -49,7 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="GShopDbContext.cs" />
+    <Compile Include="Infratructure\DbFactory.cs" />
+    <Compile Include="Infratructure\Disponsable.cs" />
+    <Compile Include="Infratructure\IDbFactory.cs" />
+    <Compile Include="Infratructure\IReponsitory.cs" />
+    <Compile Include="Infratructure\IUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -61,6 +66,13 @@
       <Project>{795ab684-1403-41b3-92bb-2f731dbe922c}</Project>
       <Name>GShop.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\GShop.Model\GShop.Model.csproj">
+      <Project>{7147d36e-b632-4b3b-bcad-d439bd47e440}</Project>
+      <Name>GShop.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Reponsitories\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
