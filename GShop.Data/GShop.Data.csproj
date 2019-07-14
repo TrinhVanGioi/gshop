@@ -55,6 +55,7 @@
     <Compile Include="Infratructure\IDbFactory.cs" />
     <Compile Include="Infratructure\IReponsitory.cs" />
     <Compile Include="Infratructure\IUnitOfWork.cs" />
+    <Compile Include="Infratructure\ReponsitoryBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

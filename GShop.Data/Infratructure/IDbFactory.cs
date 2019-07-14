@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GShop.Data.Infratructure
 {
-    pu interface IDbFactory: IDisposable
+    public interface IDbFactory: IDisposable
     {
         GShopDbContext Init();
     }
